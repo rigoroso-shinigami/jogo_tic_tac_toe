@@ -1,0 +1,62 @@
+*{
+    border:none;
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:100px;
+}
+
+.arena{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:center;
+    width:  80%;
+    height: 60vh;
+    border:2px solid #f00;
+}
+.personagens {
+display: flex;
+width:  20%;
+height: 60vh;
+border:1px solid #000;
+}
+.campo{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    width:  60%;
+    height: 60vh;
+    border:1px solid #000;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    height:15vh;
+    padding: 50px;
+    border:1px solid #000;
+    
+}
+
+.quadro{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width: 100px;
+  height: 100px;
+  margin:2px;
+  border:1px solid #000;
+  cursor: pointer;
+}
